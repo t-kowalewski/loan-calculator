@@ -1,0 +1,35 @@
+body {
+    background-image: url('/img/coffee-1276784_1920.jpg');
+    background-size: cover;
+}
+
+.card {
+    padding-bottom: 0.5rem;
+}
+
+.loader, .results {
+    display: none;
+}
+
+.my-footer p{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.fa-heart {
+    color: rgb(233, 64, 64);
+}
+
+p a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* Mobile Devices - Background*/
+@media (max-width: 1015px) {
+    body {
+        background: transparent;
+    }
+}
